@@ -14,14 +14,12 @@ I started using Reporter because I'm anxious. At first, I just had Reporter ask 
 
 After about a year, I had amassed enough reports that I was ready to go full-on [Feltron](http://feltron.com/) on myself.[^1] I have Reporter set up to automatically export your data as JSON to a folder in Dropbox, and I needed an easy way to get the data into PostgreSQL because KEEP CALM AND JUST ALWAYS USE POSTGRES.
 
-So I built [Datums](https://www.github.com/thejunglejane/datums). Datums is a pipeline for Reporter that will take the JSON files exported by Reporter and load them into a PostgreSQL database. The datums data model is defined using the [SQLAlchemy ORM](http://www.sqlalchemy.org/), and the datums library handles adding, updating, and deleting reports. The datums command line tool makes it super easy to insert records in batches. 
-
-I have a cron job that runs every morning that inserts the reports from the day before with  
+So I built [Datums](https://www.github.com/thejunglejane/datums). Datums is a pipeline for Reporter that will take the JSON files exported by Reporter and load them into a PostgreSQL database. The datums data model is defined using the [SQLAlchemy ORM](http://www.sqlalchemy.org/), and the datums library handles adding, updating, and deleting reports. The datums command line tool makes it super easy to insert records in batches. I have a cron job that runs every morning that inserts the reports from the day before with  
 
 `yesterday=$(date -v -1d +"%Y-%m-%d")`  
 `datums --add $REPORTER_PATH/$yesterday-reporter-export.json`
 
-You can install datums 
+You can download and install datums from [github](https://www.github.com/thejunglejane/datums).
 
 ### Survey
 
