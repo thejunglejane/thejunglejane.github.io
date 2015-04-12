@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: project
 title: "Datums: A PostgreSQL Pipeline for Reporter"
 modified:
 categories: projects

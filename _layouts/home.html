@@ -45,6 +45,19 @@
     </article>
     {% endfor %}
   </div><!-- /#index -->
+  <div id="index">
+    <h3><a href="{{ site.url}}/projects/">Recent Projects</a></h3>
+    {% for project in site.projects limit:5 %}    
+    <article>
+      {% if project.link %}
+        <h2 class="link-project"><a href="{{ site.url }}{{ project.url }}" title="{{ project.title }}">{{ project.title }}</a> <a href="{{ project.link }}" target="_blank" title="{{ project.title }}"><i class="fa fa-link"></i></h2>
+      {% else %}
+        <h2><a href="{{ site.url }}{{ project.url }}" title="{{ project.title }}">{{ project.title }}</a></h2>
+        <p>{{ project.excerpt | strip_html | truncate: 160 }}</p>
+      {% endif %}
+    </article>
+    {% endfor %}
+  </div><!-- /#index -->
 </div><!-- /#main -->
 
 <div class="footer-wrap">
