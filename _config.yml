@@ -1,8 +1,8 @@
 # Site wide configuration
 
-title:            Site Title
+title:            thejunglejane
 locale:           en_US
-url:              
+url:              http://thejunglejane.com
 
 
 # Jekyll configuration
@@ -26,12 +26,12 @@ kramdown:
 
 # Site owner
 owner:
-  name: Your Name
-  avatar: bio-photo.jpg
-  bio: "Describe your self."
-  email: 
+  name: Jane Stewart Adams
+  avatar: IMG_9741.jpg
+  bio: "I have data needs. Doing data things to the data at Case Commons."
+  email: jane@thejunglejane.com
   disqus-shortname: 
-  twitter: #username
+  twitter: thejunglejane
   facebook: #username
   google:
     plus: #username
@@ -40,11 +40,11 @@ owner:
     ad-client: 
     ad-slot: 
   bing-verify: 
-  github: #username
+  github: thejunglejane
   stackoverflow: #http://stackoverflow.com/users/123456/username
-  linkedin: #username
+  linkedin: jane-adams/2b/651/316/
   xing: #username
-  instagram: #username
+  instagram: thejunglejane
   lastfm: #username
   tumblr: #username
   pinterest: #username
