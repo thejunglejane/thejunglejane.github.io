@@ -10,11 +10,9 @@ share: false
 ---
 [Reporter](http://www.reporter-app.com/) is an iPhone application that will ping you randomly throughout the day with a survey of questions designed by you. Among others, Reporter is used by [@georgialupi](https://twitter.com/giorgialupi) and [@stefpos](https://twitter.com/stefpos) in their project [Dear Data](http://www.dear-data.com/).   
 
-I started using Reporter because I'm anxious. At first, I just had Reporter ask me how anxious I was on a scale of 1 to 10. That was it. The trend was interesting (there was a time when it looked like a perfect sine wave), but the numbers by themselves, as you probably could've guessed, are little better than meaningless. So I started adding questions: Where are you? Who are you with? What are you working on? What tools are you using? Did you have sex today? (My full survey can be found [below](#survey).)  
+I started using Reporter because I'm anxious. At first, I just had Reporter ask me how anxious I was on a scale of 1 to 10. That was it. The trend was interesting (there was a time when it looked like a perfect sine wave), but the numbers by themselves, as you probably could've guessed, are little better than meaningless. So I started adding questions: Where are you? Who are you with? What are you working on? What tools are you using? Did you have sex today? (My full survey is [below](#survey).)  
 
 After about a year, I had amassed enough reports that I was ready to go full-on [Feltron](http://feltron.com/) on myself.[^1] I have Reporter set up to automatically export your data as JSON to a folder in Dropbox, and I needed an easy way to get the data into PostgreSQL because KEEP CALM AND JUST ALWAYS USE POSTGRES.
-
-![datums](datums_header.png)
 
 So I built [Datums](https://www.github.com/thejunglejane/datums). Datums is a pipeline for Reporter that will take the JSON files exported by Reporter and load them into a PostgreSQL database. The datums data model is defined using the [SQLAlchemy ORM](http://www.sqlalchemy.org/), and the datums library handles adding, updating, and deleting reports. The datums command line tool makes it super easy to insert records in batches. 
 
