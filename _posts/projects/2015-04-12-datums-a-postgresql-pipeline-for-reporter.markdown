@@ -12,7 +12,7 @@ share: false
 
 I started using Reporter because I'm anxious. At first, I just had Reporter ask me how anxious I was on a scale of 1 to 10. That was it. The trend was interesting (there was a time when it looked like a perfect sine wave), but the numbers by themselves, as you probably could've guessed, are little better than meaningless. So I started adding questions: Where are you? Who are you with? What are you working on? What tools are you using? Did you have sex today? (My full survey is [below](#survey).)  
 
-After about a year, I had amassed enough reports that I was ready to go full-on [Feltron](http://feltron.com/) on myself.[^1] I have Reporter set up to automatically export your data as JSON to a folder in Dropbox, and I needed an easy way to get the data into PostgreSQL because KEEP CALM AND JUST ALWAYS USE POSTGRES.
+After about a year, I had amassed enough reports that I was ready to go [Feltron](http://feltron.com/) on myself.[^1] I have Reporter set up to automatically export your data as JSON to a folder in Dropbox, and I needed an easy way to get the data into PostgreSQL because KEEP CALM AND JUST ALWAYS USE POSTGRES.
 
 So I built [Datums](https://www.github.com/thejunglejane/datums). Datums is a pipeline for Reporter that will take the JSON files exported by Reporter and load them into a PostgreSQL database. The datums data model is defined using the [SQLAlchemy ORM](http://www.sqlalchemy.org/), and the datums library handles adding, updating, and deleting reports. The datums command line tool makes it super easy to insert records in batches. I have a cron job that runs every morning that inserts the reports from the day before with  
 
@@ -54,5 +54,5 @@ You can download and install datums from [github](https://www.github.com/thejung
     + Take iron[^2]
 
 
-[^1]: Feltron helped build Reporter.
+[^1]: Nicholas Felton helped build Reporter.
 [^2]: I’m pretty anemic, and whether or not I take iron seems to have a big impact on how tired I am.
