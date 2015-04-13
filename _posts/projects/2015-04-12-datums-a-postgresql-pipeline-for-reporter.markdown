@@ -55,4 +55,4 @@ You can download and install datums from [github](https://www.github.com/thejung
 
 
 [^1]: Nicholas Felton helped build Reporter.
-[^2]: I’m pretty anemic, and whether or not I take iron seems to have a big impact on how tired I am.
+[^2]: I’m pretty anemic, and whether or not I take iron seems to have a big impact on how tired I am. Things you learn when you use Reporter.
