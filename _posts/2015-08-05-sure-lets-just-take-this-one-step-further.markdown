@@ -10,8 +10,6 @@ image:
 share: false
 date: 2015-08-05T17:16:01-04:00
 ---
-# Let’s Take This One Step Further
-
 On July 27th, the New York Times published an article about algorithms that “determine character” titled, you guessed it, _Determining Character With Algorithms_[^1]. The article highlighted Upstart, a loan-lending startup that aims to supplement credit history with transcripts and standardized test scores to create a picture of credit for people that don’t have the credit history, good or bad, that comes from having a few credit cards and a mortgage. The idea is that your standardized test scores, which college you attend, your major, and your GPA indicate how important you feel your sense of obligation to repay a loan would be if you were given one. In short, Upstart is concerned more with your “willingness” to pay back a loan than your ability to pay back a loan, and it uses your transcripts and standardized test scores to determine how willing you are.
 
 While the article focuses on loans, there’s a nice shoutout to criminal risk assessment, because we all know that that’s not [hugely problematic](http://mathbabe.org/2014/08/12/weapon-of-math-destruction-risk-based-sentencing-models/). The article alludes to data validating the claim that students with higher GPAs are more likely to repay their debts, but that wasn’t enough to be going on for me to find it. What’s troubling about this article—and about the Upstart lending model—is that it fails to acknowledge the disparate factors that can and do impact GPA, standardized test scores, and college acceptance.
