@@ -6,7 +6,7 @@ categories:
 excerpt:
 tags: [data, talks, child welfare, criminal justice]
 image:
-  feature: 
+  feature:
 share: false
 date: 2016-03-01T07:59:23-05:00
 ---
