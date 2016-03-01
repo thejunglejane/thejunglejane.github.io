@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Sure, Let's Just Take This One Step Further"
+title: "Upstart and Algorithms of Exclusion"
 modified:
 categories: 
 excerpt:
