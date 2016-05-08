@@ -16,13 +16,11 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : "Site Title"
-title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Your Name"
-description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+title                    : "thejunglejane"
+title_separator          : " "
+name                     : "Jane Stewart Adams"
+description              : "Doing data things to the data."
+url                      : http://localhost:4000
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -90,7 +88,7 @@ baidu_site_verification  :
 
 # Social Sharing
 twitter:
-  username               :
+  username               : thejunglejane
 facebook:
   username               :
   app_id                 :
@@ -106,14 +104,25 @@ social:
 
 # Analytics
 analytics:
+<<<<<<< HEAD
   provider               : # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
     tracking_id          :
     anonymize_ip         : # true, false (default)
+=======
+  provider               : "google"
+  google:
+    tracking_id          : UA-23556547-3
+
+# Google AdSense
+google_ad_client         :
+google_ad_slot           :
+>>>>>>> 879a3c7f (Upgrading site.)
 
 
 # Site Author
 author:
+<<<<<<< HEAD
   name             : "Your Name"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am an **amazing** person."
@@ -163,6 +172,36 @@ footer:
       icon: "fab fa-fw fa-instagram"
       # url:
   since: "2013"
+=======
+  name             : "J S Adams"
+  avatar           : "bio-photo.jpg"
+  bio              : "Doing data things to the data."
+  location         : "Brooklyn"
+  email            : jane@thejunglejane.com
+  uri              :
+  bitbucket        :
+  codepen          :
+  dribbble         :
+  flickr           :
+  facebook         :
+  foursquare       :
+  github           : thejunglejane
+  google_plus      :
+  keybase          :
+  instagram        : thejunglejane
+  lastfm           :
+  linkedin         : thejunglejane
+  pinterest        :
+  soundcloud       :
+  stackoverflow    : # http://stackoverflow.com/users/123456/username
+  steam            :
+  tumblr           :
+  twitter          : thejunglejane
+  vine             :
+  weibo            :
+  xing             :
+  youtube          :
+>>>>>>> 879a3c7f (Upgrading site.)
 
 
 # Reading Files
