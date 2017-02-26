@@ -19,7 +19,7 @@ locale                   : "en-US"
 title                    : "thejunglejane"
 title_separator          : " "
 name                     : "Jane Stewart Adams"
-description              : "Doing data things to the data."
+description              : "Small, slow, decolonized data."
 url                      : http://thejunglejane.com
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
