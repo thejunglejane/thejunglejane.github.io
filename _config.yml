@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 remote_theme           : "mmistakes/minimal-mistakes@4.28.0"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise", "catppuccin_latte", "catppuccin_mocha"
+minimal_mistakes_skin    : "catppuccin_latte" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise", "catppuccin_latte", "catppuccin_mocha"
 
 # Site Settings
 locale                   : "en-US"
@@ -116,7 +116,7 @@ google_ad_slot           :
 # Site Author
 author:
   name             : "Jane Stewart Adams"
-  avatar           : "bio-photo2.jpg"
+  avatar           : "assets/images/bio-photo2.jpg"
   bio              : "Small, slow data."
   location         : 
   email            : 
