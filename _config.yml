@@ -18,8 +18,8 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 locale                   : "en-US"
 title                    : "thejunglejane"
 title_separator          : " "
-name                     : "Jane Stewart Adams"
-description              : "Small, slow, decolonized data."
+name                     : 
+description              : "The personal webiste of Jane Stewart Adams"
 url                      : http://thejunglejane.com
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -88,7 +88,7 @@ baidu_site_verification  :
 
 # Social Sharing
 twitter:
-  username               : thejunglejane
+  username               : 
 facebook:
   username               :
   app_id                 :
@@ -115,11 +115,11 @@ google_ad_slot           :
 
 # Site Author
 author:
-  name             : "J S Adams"
+  name             : "Jane Stewart Adams"
   avatar           : "bio-photo2.jpg"
-  bio              : "Small, slow, decolonized data."
-  location         : "Brooklyn"
-  email            : jane@thejunglejane.com
+  bio              : "Small, slow data."
+  location         : 
+  email            : 
   uri              :
   bitbucket        :
   codepen          :
@@ -132,13 +132,13 @@ author:
   keybase          :
   instagram        : thejunglejane
   lastfm           :
-  linkedin         : thejunglejane
+  linkedin         : 
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : thejunglejane
+  twitter          : 
   vine             :
   weibo            :
   xing             :
